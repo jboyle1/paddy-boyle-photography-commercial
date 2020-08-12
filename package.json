@@ -1,0 +1,17 @@
+{
+  "name": "paddy-comercial-002",
+  "version": "1.0.0",
+  "description": "Photograpy showcase website for Paddy Boyle",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Jed Boyle",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "nodemon": "^2.0.4"
+  }
+}
