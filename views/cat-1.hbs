@@ -1,0 +1,375 @@
+<!-- Navigation Bar -->
+        <nav class="navbar navbar-fixed-top navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button
+                        type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target="#menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand page-scroll brand-position" href="/">
+                        <a href="/"><img class="logo" src="Favicon.jpg"></a>
+                        <h1 class="brand">Paddy Boyle |
+                            <span class="brand-light-font">Photography</span></h1>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="menu">
+                    <ul class="nav navbar-nav">
+                        <li class="lien">
+                            <a href="/">
+                                <i class="fa fa-home sr-icons icon"></i>Home</a>
+                        </li>
+                        <li class="lien">
+                            <a href="/about">
+                                <i class="fa fa-bookmark sr-icons icon"></i>
+                                About & Pricing</a>
+                        </li>
+                        <li class="lien">
+                            <a href="/contact">
+                                <i class="fa fa-phone-square sr-icons icon"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- End of Navigation Bar -->
+<div id="index-body">
+    <div class="home-page">
+        <!-- Main Image -->
+        <a href="#top">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="img-responsive" src="001property.jpg" width="100%" alt="header picture">
+                </div>
+                <div class="carousel-caption">
+                    <h1>Property</h1>
+                    <hr>
+                </div>
+            </div>
+        </a>
+        <!--//Main Image -->
+
+        <!-- Gallery Navigation table -->
+        <div id="top">
+            <div class="table-responsive">
+                <table class="table text-center">
+                    <thead>
+                        <tr>
+                            <td>
+                                <a class="link active" href="/cat-1">Property</a>
+                            </td>
+                            <td>
+                                <a class="link" href="/cat-2">Food</a>
+                            </td>
+                            <td>
+                                <a class="link" href="/cat-3">People</a>
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <!-- //Gallery Navigation table -->
+
+        <!-- Cat 1 portfolio section -->
+        <div class="tab-content">
+            <div id="category1">
+                <div class="row">
+                    <div class="tab-pane active">
+                        <div class="popup-gallery10">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <div class="sol">
+                                    <a class="gallery10" href="1k.jpg" data-toggle="tooltip">
+                                        <img class="img-responsive" src="2k.jpg" alt="First category picture">
+                                        <div class="behind">
+                                            <div class="head text-center">
+                                                <ul class="list-inline"></ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <h2 class="text-box2">Property Images</h2>
+                                    <ul>
+                                        {{#each cat1Gal}}
+                                            <li><a class="gallery10" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                        {{/each}}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane active">
+                        <div class="popup-gallery1">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <div class="sol">
+                                    <a class="gallery1" href="1a.jpg" data-toggle="tooltip">
+                                        <img class="img-responsive" src="2a.jpg" alt="First category picture">
+                                        <div class="behind">
+                                            <div class="head text-center">
+                                                <ul class="list-inline"></ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <h2 class="text-box2">Showcase 1</h2>
+                                    <ul>
+                                        {{#each cat1001}}
+                                            <li><a class="gallery1" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                        {{/each}}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane active">
+                        <div class="popup-gallery2">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <div class="sol">
+                                    <a class="gallery2" href="2b.jpg" data-toggle="tooltip">
+                                        <img class="img-responsive" src="1b.jpg" alt="First category picture">
+                                        <div class="behind">
+                                            <div class="head text-center">
+                                                <ul class="list-inline"></ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <h2 class="text-box2">Showcase 2</h2>
+                                    <ul>
+                                        {{#each cat1002}}
+                                            <li><a class="gallery2" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                        {{/each}}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="tab-pane active">
+                        <div class="tab-pane active">
+                            <div class="popup-gallery3">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="sol">
+                                        <a class="gallery3" href="2c.jpg" data-toggle="tooltip">
+                                            <img class="img-responsive" src="1c.jpg" alt="First category picture">
+                                            <div class="behind">
+                                                <div class="head text-center">
+                                                    <ul class="list-inline"></ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <h2 class="text-box2">Showcase 3</h2>
+                                        <ul>
+                                            {{#each cat1003}}
+                                                <li><a class="gallery3" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                            {{/each}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane active">
+                            <div class="popup-gallery4">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="sol">
+                                        <a class="gallery4" href="2d.jpg" data-toggle="tooltip">
+                                            <img class="img-responsive" src="1d.jpg" alt="First category picture">
+                                            <div class="behind">
+                                                <div class="head text-center">
+                                                    <ul class="list-inline"></ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <h2 class="text-box2">Showcase 4</h2>
+                                        <ul>
+                                            {{#each cat1004}}
+                                                <li><a class="gallery4" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                            {{/each}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane active">
+                            <div class="popup-gallery5">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="sol">
+                                        <a class="gallery5" href="2e.jpg" data-toggle="tooltip">
+                                            <img class="img-responsive" src="1e.jpg" alt="First category picture">
+                                            <div class="behind">
+                                                <div class="head text-center">
+                                                    <ul class="list-inline"></ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <h2 class="text-box2">Showcase 5</h2>
+                                        <ul>
+                                            {{#each cat1005}}
+                                                <li><a class="gallery5" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                            {{/each}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="tab-pane active">
+                        <div class="tab-pane active">
+                            <div class="popup-gallery6">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="sol">
+                                        <a class="gallery6" href="2f.jpg" data-toggle="tooltip">
+                                            <img class="img-responsive" src="1f.jpg" alt="First category picture">
+                                            <div class="behind">
+                                                <div class="head text-center">
+                                                    <ul class="list-inline"></ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <h2 class="text-box2">Showcase 6</h2>
+                                        <ul>
+                                            {{#each cat1006}}
+                                                <li><a class="gallery6" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                            {{/each}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane active">
+                            <div class="popup-gallery7">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="sol">
+                                        <a class="gallery7" href="2g.jpg" data-toggle="tooltip">
+                                            <img class="img-responsive" src="1g.jpg" alt="First category picture">
+                                            <div class="behind">
+                                                <div class="head text-center">
+                                                    <ul class="list-inline"></ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <h2 class="text-box2">Showcase 7</h2>
+                                        <ul>
+                                            {{#each cat1007}}
+                                                <li><a class="gallery7" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                            {{/each}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane active">
+                            <div class="popup-gallery8">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="sol">
+                                        <a class="gallery8" href="2h.jpg" data-toggle="tooltip">
+                                            <img class="img-responsive" src="1h.jpg" alt="First category picture">
+                                            <div class="behind">
+                                                <div class="head text-center">
+                                                    <ul class="list-inline"></ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <h2 class="text-box2">Showcase 8</h2>
+                                        <ul>
+                                            {{#each cat1008}}
+                                                <li><a class="gallery8" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                            {{/each}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="tab-pane active">
+                        <div class="tab-pane active">
+                            <div class="popup-gallery9">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="sol">
+                                        <a class="gallery9" href="2i.jpg" data-toggle="tooltip">
+                                            <img class="img-responsive" src="1i.jpg" alt="First category picture">
+                                            <div class="behind">
+                                                <div class="head text-center">
+                                                    <ul class="list-inline"></ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <h2 class="text-box2">Showcase 9</h2>
+                                        <ul>
+                                            {{#each cat1009}}
+                                                <li><a class="gallery9" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                            {{/each}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane active">
+                            <div class="popup-gallery11">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="sol">
+                                        <a class="gallery11" href="2j.jpg" data-toggle="tooltip">
+                                            <img class="img-responsive" src="1j.jpg" alt="First category picture">
+                                            <div class="behind">
+                                                <div class="head text-center">
+                                                    <ul class="list-inline"></ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <h2 class="text-box2">Showcase 10</h2>
+                                        <ul>
+                                            {{#each cat1010}}
+                                                <li><a class="gallery11" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                            {{/each}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane active">
+                            <div class="popup-gallery12">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="sol">
+                                        <a class="gallery12" href="2l.jpg" data-toggle="tooltip">
+                                            <img class="img-responsive" src="1l.jpg" alt="First category picture">
+                                            <div class="behind">
+                                                <div class="head text-center">
+                                                    <ul class="list-inline"></ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <h2 class="text-box2">Showcase 11</h2>
+                                        <ul>
+                                            {{#each cat1011}}
+                                                <li><a class="gallery12" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                            {{/each}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
