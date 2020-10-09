@@ -1837,3 +1837,42 @@ img {
     }
 }
 
+
+/*------ Change hr and underlines to blue ------*/
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
+    border-bottom: solid 3px #2B92EF;
+}
+
+#index-body hr {
+    margin: 0 auto;
+    width: 60px;
+    border-width: 3px;
+    border-color: #2B92EF;
+}
+
+#about .container hr {
+    margin: 0 auto;
+    width: 15%;
+    height: 3px;
+    background-color: #2B92EF;
+}
+
+#contact hr {
+    margin: 0 auto;
+    float: left;
+    width: 20%;
+    height: 4px;
+    border: none;
+    background-color: #2B92EF;
+}
+
+#contact .btn {
+    margin-top: 20px;
+    border-radius: 0;
+    background-color: #2B92EF;
+    border: solid 2px #2B92EF;
+    color: white;
+    font-weight: bold;
+}
+
