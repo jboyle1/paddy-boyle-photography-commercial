@@ -1486,12 +1486,12 @@ img {
 
 .email {
 
-    color: #333;
+    color: rgb(88, 88, 88);
 }
 
 .email:hover {
 
-    color: #d43f3a;
+    color: #4653cf;
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 990px) {
