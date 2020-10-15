@@ -669,9 +669,6 @@ const context = {
             img: '4n.jpg',
         },
         {
-            img: '5n.jpg',
-        },
-        {
             img: '6n.jpg',
         },
         {
@@ -696,7 +693,7 @@ const context = {
             img: '13n.jpg',
         },
         {
-            img: '14njpg',
+            img: '14n.jpg',
         },
         {
             img: '15n.jpg',
